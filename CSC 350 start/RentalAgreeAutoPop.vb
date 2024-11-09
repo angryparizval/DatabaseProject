@@ -6,4 +6,8 @@
     Private Sub RentalAgreeAutoPop_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub Label40_Click(sender As Object, e As EventArgs) Handles Label40.Click
+
+    End Sub
 End Class
