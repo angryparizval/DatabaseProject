@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class AvailableCars
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,8 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         ComboBox1 = New ComboBox()
         Label1 = New Label()
-        Submit = New Button()
-        Button2 = New Button()
+        Button1 = New Button()
         SuspendLayout()
         ' 
         ' ComboBox1
@@ -47,34 +46,24 @@ Partial Class Form1
         Label1.TabIndex = 1
         Label1.Text = "Cars Available to Rent"
         ' 
-        ' Submit
+        ' Button1
         ' 
-        Submit.Location = New Point(586, 175)
-        Submit.Name = "Submit"
-        Submit.Size = New Size(116, 27)
-        Submit.TabIndex = 2
-        Submit.Text = "Submit"
-        Submit.UseVisualStyleBackColor = True
+        Button1.Location = New Point(30, 12)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(151, 45)
+        Button1.TabIndex = 3
+        Button1.Text = "Back to Home Page"
+        Button1.UseVisualStyleBackColor = True
         ' 
-        ' Button2
-        ' 
-        Button2.Location = New Point(30, 12)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(151, 45)
-        Button2.TabIndex = 3
-        Button2.Text = "Back to Home Page"
-        Button2.UseVisualStyleBackColor = True
-        ' 
-        ' Form1
+        ' AvailableCars
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(864, 463)
-        Controls.Add(Button2)
-        Controls.Add(Submit)
+        Controls.Add(Button1)
         Controls.Add(Label1)
         Controls.Add(ComboBox1)
-        Name = "Form1"
+        Name = "AvailableCars"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
@@ -82,7 +71,6 @@ Partial Class Form1
 
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Submit As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 
 End Class

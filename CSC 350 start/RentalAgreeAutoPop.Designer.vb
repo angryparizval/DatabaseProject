@@ -110,86 +110,90 @@ Partial Class RentalAgreeAutoPop
         CheckBox1 = New CheckBox()
         CheckBox2 = New CheckBox()
         Label60 = New Label()
+        Button2 = New Button()
         SuspendLayout()
         ' 
         ' Label8
         ' 
         Label8.AutoSize = True
-        Label8.Location = New Point(781, 159)
+        Label8.Location = New Point(683, 119)
         Label8.Name = "Label8"
-        Label8.Size = New Size(71, 20)
+        Label8.Size = New Size(56, 15)
         Label8.TabIndex = 27
         Label8.Text = "Store No."
         ' 
         ' TextBox4
         ' 
-        TextBox4.Location = New Point(858, 156)
+        TextBox4.Location = New Point(751, 117)
+        TextBox4.Margin = New Padding(3, 2, 3, 2)
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(125, 27)
+        TextBox4.Size = New Size(110, 23)
         TextBox4.TabIndex = 26
         ' 
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Location = New Point(954, 156)
+        Label9.Location = New Point(835, 117)
         Label9.Name = "Label9"
-        Label9.Size = New Size(0, 20)
+        Label9.Size = New Size(0, 15)
         Label9.TabIndex = 25
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(64, 459)
+        Label6.Location = New Point(56, 344)
         Label6.Name = "Label6"
-        Label6.Size = New Size(140, 20)
+        Label6.Size = New Size(115, 15)
         Label6.TabIndex = 24
         Label6.Text = "Insurance Policy No."
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(210, 456)
+        TextBox3.Location = New Point(184, 342)
+        TextBox3.Margin = New Padding(3, 2, 3, 2)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(125, 27)
+        TextBox3.Size = New Size(110, 23)
         TextBox3.TabIndex = 23
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(306, 456)
+        Label7.Location = New Point(268, 342)
         Label7.Name = "Label7"
-        Label7.Size = New Size(0, 20)
+        Label7.Size = New Size(0, 15)
         Label7.TabIndex = 22
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(468, 155)
+        Label4.Location = New Point(410, 116)
         Label4.Name = "Label4"
-        Label4.Size = New Size(83, 20)
+        Label4.Size = New Size(66, 15)
         Label4.TabIndex = 21
         Label4.Text = "Vehicle No."
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(557, 152)
+        TextBox2.Location = New Point(487, 114)
+        TextBox2.Margin = New Padding(3, 2, 3, 2)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(125, 27)
+        TextBox2.Size = New Size(110, 23)
         TextBox2.TabIndex = 20
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(669, 155)
+        Label5.Location = New Point(585, 116)
         Label5.Name = "Label5"
-        Label5.Size = New Size(0, 20)
+        Label5.Size = New Size(0, 15)
         Label5.TabIndex = 19
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(105, 159)
+        Label3.Location = New Point(92, 119)
         Label3.Name = "Label3"
-        Label3.Size = New Size(99, 20)
+        Label3.Size = New Size(81, 15)
         Label3.TabIndex = 18
         Label3.Text = "Customer No."
         ' 
@@ -197,638 +201,677 @@ Partial Class RentalAgreeAutoPop
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI Historic", 21F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(319, 38)
+        Label2.Location = New Point(279, 28)
         Label2.Name = "Label2"
-        Label2.Size = New Size(410, 47)
+        Label2.Size = New Size(334, 38)
         Label2.TabIndex = 17
         Label2.Text = "Rental Agreement Form"
         ' 
         ' Button1
         ' 
         Button1.Font = New Font("Segoe UI Historic", 9F, FontStyle.Bold)
-        Button1.Location = New Point(37, 38)
+        Button1.Location = New Point(32, 28)
+        Button1.Margin = New Padding(3, 2, 3, 2)
         Button1.Name = "Button1"
-        Button1.Size = New Size(127, 29)
+        Button1.Size = New Size(111, 22)
         Button1.TabIndex = 16
-        Button1.Text = "Back to Home"
+        Button1.Text = "Back"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(210, 156)
+        TextBox1.Location = New Point(184, 117)
+        TextBox1.Margin = New Padding(3, 2, 3, 2)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(125, 27)
+        TextBox1.Size = New Size(110, 23)
         TextBox1.TabIndex = 15
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(306, 156)
+        Label1.Location = New Point(268, 117)
         Label1.Name = "Label1"
-        Label1.Size = New Size(0, 20)
+        Label1.Size = New Size(0, 15)
         Label1.TabIndex = 14
         ' 
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Location = New Point(105, 192)
+        Label10.Location = New Point(92, 144)
         Label10.Name = "Label10"
-        Label10.Size = New Size(80, 20)
+        Label10.Size = New Size(64, 15)
         Label10.TabIndex = 30
         Label10.Text = "First Name"
         ' 
         ' TextBox5
         ' 
-        TextBox5.Location = New Point(210, 189)
+        TextBox5.Location = New Point(184, 142)
+        TextBox5.Margin = New Padding(3, 2, 3, 2)
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(125, 27)
+        TextBox5.Size = New Size(110, 23)
         TextBox5.TabIndex = 29
         ' 
         ' Label11
         ' 
         Label11.AutoSize = True
-        Label11.Location = New Point(306, 189)
+        Label11.Location = New Point(268, 142)
         Label11.Name = "Label11"
-        Label11.Size = New Size(0, 20)
+        Label11.Size = New Size(0, 15)
         Label11.TabIndex = 28
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
-        Label12.Location = New Point(105, 225)
+        Label12.Location = New Point(92, 169)
         Label12.Name = "Label12"
-        Label12.Size = New Size(79, 20)
+        Label12.Size = New Size(63, 15)
         Label12.TabIndex = 33
         Label12.Text = "Last Name"
         ' 
         ' TextBox6
         ' 
-        TextBox6.Location = New Point(210, 222)
+        TextBox6.Location = New Point(184, 166)
+        TextBox6.Margin = New Padding(3, 2, 3, 2)
         TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(125, 27)
+        TextBox6.Size = New Size(110, 23)
         TextBox6.TabIndex = 32
         ' 
         ' Label13
         ' 
         Label13.AutoSize = True
-        Label13.Location = New Point(306, 222)
+        Label13.Location = New Point(268, 166)
         Label13.Name = "Label13"
-        Label13.Size = New Size(0, 20)
+        Label13.Size = New Size(0, 15)
         Label13.TabIndex = 31
         ' 
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.Location = New Point(105, 258)
+        Label14.Location = New Point(92, 194)
         Label14.Name = "Label14"
-        Label14.Size = New Size(94, 20)
+        Label14.Size = New Size(73, 15)
         Label14.TabIndex = 36
         Label14.Text = "Date of Birth"
         ' 
         ' TextBox7
         ' 
-        TextBox7.Location = New Point(210, 255)
+        TextBox7.Location = New Point(184, 191)
+        TextBox7.Margin = New Padding(3, 2, 3, 2)
         TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(125, 27)
+        TextBox7.Size = New Size(110, 23)
         TextBox7.TabIndex = 35
         ' 
         ' Label15
         ' 
         Label15.AutoSize = True
-        Label15.Location = New Point(306, 255)
+        Label15.Location = New Point(268, 191)
         Label15.Name = "Label15"
-        Label15.Size = New Size(0, 20)
+        Label15.Size = New Size(0, 15)
         Label15.TabIndex = 34
         ' 
         ' Label16
         ' 
         Label16.AutoSize = True
-        Label16.Location = New Point(105, 291)
+        Label16.Location = New Point(92, 218)
         Label16.Name = "Label16"
-        Label16.Size = New Size(84, 20)
+        Label16.Size = New Size(68, 15)
         Label16.TabIndex = 39
         Label16.Text = "License No."
         ' 
         ' TextBox8
         ' 
-        TextBox8.Location = New Point(210, 288)
+        TextBox8.Location = New Point(184, 216)
+        TextBox8.Margin = New Padding(3, 2, 3, 2)
         TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(125, 27)
+        TextBox8.Size = New Size(110, 23)
         TextBox8.TabIndex = 38
         ' 
         ' Label17
         ' 
         Label17.AutoSize = True
-        Label17.Location = New Point(306, 288)
+        Label17.Location = New Point(268, 216)
         Label17.Name = "Label17"
-        Label17.Size = New Size(0, 20)
+        Label17.Size = New Size(0, 15)
         Label17.TabIndex = 37
         ' 
         ' Label18
         ' 
         Label18.AutoSize = True
-        Label18.Location = New Point(105, 324)
+        Label18.Location = New Point(92, 243)
         Label18.Name = "Label18"
-        Label18.Size = New Size(77, 20)
+        Label18.Size = New Size(63, 15)
         Label18.TabIndex = 42
         Label18.Text = "Phone No."
         ' 
         ' TextBox9
         ' 
-        TextBox9.Location = New Point(210, 321)
+        TextBox9.Location = New Point(184, 241)
+        TextBox9.Margin = New Padding(3, 2, 3, 2)
         TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(125, 27)
+        TextBox9.Size = New Size(110, 23)
         TextBox9.TabIndex = 41
         ' 
         ' Label19
         ' 
         Label19.AutoSize = True
-        Label19.Location = New Point(306, 321)
+        Label19.Location = New Point(268, 241)
         Label19.Name = "Label19"
-        Label19.Size = New Size(0, 20)
+        Label19.Size = New Size(0, 15)
         Label19.TabIndex = 40
         ' 
         ' Label20
         ' 
         Label20.AutoSize = True
-        Label20.Location = New Point(105, 357)
+        Label20.Location = New Point(92, 268)
         Label20.Name = "Label20"
-        Label20.Size = New Size(103, 20)
+        Label20.Size = New Size(81, 15)
         Label20.TabIndex = 45
         Label20.Text = "Email Address"
         ' 
         ' TextBox10
         ' 
-        TextBox10.Location = New Point(210, 354)
+        TextBox10.Location = New Point(184, 266)
+        TextBox10.Margin = New Padding(3, 2, 3, 2)
         TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(125, 27)
+        TextBox10.Size = New Size(110, 23)
         TextBox10.TabIndex = 44
         ' 
         ' Label21
         ' 
         Label21.AutoSize = True
-        Label21.Location = New Point(306, 354)
+        Label21.Location = New Point(268, 266)
         Label21.Name = "Label21"
-        Label21.Size = New Size(0, 20)
+        Label21.Size = New Size(0, 15)
         Label21.TabIndex = 43
         ' 
         ' Label22
         ' 
         Label22.AutoSize = True
-        Label22.Location = New Point(105, 390)
+        Label22.Location = New Point(92, 292)
         Label22.Name = "Label22"
-        Label22.Size = New Size(82, 20)
+        Label22.Size = New Size(65, 15)
         Label22.TabIndex = 48
         Label22.Text = "User Name"
         ' 
         ' TextBox11
         ' 
-        TextBox11.Location = New Point(210, 387)
+        TextBox11.Location = New Point(184, 290)
+        TextBox11.Margin = New Padding(3, 2, 3, 2)
         TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(125, 27)
+        TextBox11.Size = New Size(110, 23)
         TextBox11.TabIndex = 47
         ' 
         ' Label23
         ' 
         Label23.AutoSize = True
-        Label23.Location = New Point(306, 387)
+        Label23.Location = New Point(268, 290)
         Label23.Name = "Label23"
-        Label23.Size = New Size(0, 20)
+        Label23.Size = New Size(0, 15)
         Label23.TabIndex = 46
         ' 
         ' Label24
         ' 
         Label24.AutoSize = True
-        Label24.Location = New Point(404, 188)
+        Label24.Location = New Point(354, 141)
         Label24.Name = "Label24"
-        Label24.Size = New Size(148, 20)
+        Label24.Size = New Size(119, 15)
         Label24.TabIndex = 51
         Label24.Text = "Vehicle Manufacturer"
         ' 
         ' TextBox12
         ' 
-        TextBox12.Location = New Point(557, 188)
+        TextBox12.Location = New Point(487, 141)
+        TextBox12.Margin = New Padding(3, 2, 3, 2)
         TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(125, 27)
+        TextBox12.Size = New Size(110, 23)
         TextBox12.TabIndex = 50
         ' 
         ' Label25
         ' 
         Label25.AutoSize = True
-        Label25.Location = New Point(669, 191)
+        Label25.Location = New Point(585, 143)
         Label25.Name = "Label25"
-        Label25.Size = New Size(0, 20)
+        Label25.Size = New Size(0, 15)
         Label25.TabIndex = 49
         ' 
         ' Label26
         ' 
         Label26.AutoSize = True
-        Label26.Location = New Point(436, 221)
+        Label26.Location = New Point(382, 166)
         Label26.Name = "Label26"
-        Label26.Size = New Size(115, 20)
+        Label26.Size = New Size(91, 15)
         Label26.TabIndex = 54
         Label26.Text = "Vehicle Year No."
         ' 
         ' TextBox13
         ' 
-        TextBox13.Location = New Point(557, 221)
+        TextBox13.Location = New Point(487, 166)
+        TextBox13.Margin = New Padding(3, 2, 3, 2)
         TextBox13.Name = "TextBox13"
-        TextBox13.Size = New Size(125, 27)
+        TextBox13.Size = New Size(110, 23)
         TextBox13.TabIndex = 53
         ' 
         ' Label27
         ' 
         Label27.AutoSize = True
-        Label27.Location = New Point(669, 224)
+        Label27.Location = New Point(585, 168)
         Label27.Name = "Label27"
-        Label27.Size = New Size(0, 20)
+        Label27.Size = New Size(0, 15)
         Label27.TabIndex = 52
         ' 
         ' Label28
         ' 
         Label28.AutoSize = True
-        Label28.Location = New Point(404, 257)
+        Label28.Location = New Point(354, 193)
         Label28.Name = "Label28"
-        Label28.Size = New Size(147, 20)
+        Label28.Size = New Size(116, 15)
         Label28.TabIndex = 57
         Label28.Text = "Vehicle Model Name"
         ' 
         ' TextBox14
         ' 
-        TextBox14.Location = New Point(557, 254)
+        TextBox14.Location = New Point(487, 190)
+        TextBox14.Margin = New Padding(3, 2, 3, 2)
         TextBox14.Name = "TextBox14"
-        TextBox14.Size = New Size(125, 27)
+        TextBox14.Size = New Size(110, 23)
         TextBox14.TabIndex = 56
         ' 
         ' Label29
         ' 
         Label29.AutoSize = True
-        Label29.Location = New Point(669, 257)
+        Label29.Location = New Point(585, 193)
         Label29.Name = "Label29"
-        Label29.Size = New Size(0, 20)
+        Label29.Size = New Size(0, 15)
         Label29.TabIndex = 55
         ' 
         ' Label30
         ' 
         Label30.AutoSize = True
-        Label30.Location = New Point(430, 287)
+        Label30.Location = New Point(376, 215)
         Label30.Name = "Label30"
-        Label30.Size = New Size(121, 20)
+        Label30.Size = New Size(95, 15)
         Label30.TabIndex = 60
         Label30.Text = "Vehicle Door No."
         ' 
         ' TextBox15
         ' 
-        TextBox15.Location = New Point(557, 287)
+        TextBox15.Location = New Point(487, 215)
+        TextBox15.Margin = New Padding(3, 2, 3, 2)
         TextBox15.Name = "TextBox15"
-        TextBox15.Size = New Size(125, 27)
+        TextBox15.Size = New Size(110, 23)
         TextBox15.TabIndex = 59
         ' 
         ' Label31
         ' 
         Label31.AutoSize = True
-        Label31.Location = New Point(669, 290)
+        Label31.Location = New Point(585, 218)
         Label31.Name = "Label31"
-        Label31.Size = New Size(0, 20)
+        Label31.Size = New Size(0, 15)
         Label31.TabIndex = 58
         ' 
         ' Label32
         ' 
         Label32.AutoSize = True
-        Label32.Location = New Point(410, 320)
+        Label32.Location = New Point(359, 240)
         Label32.Name = "Label32"
-        Label32.Size = New Size(141, 20)
+        Label32.Size = New Size(113, 15)
         Label32.TabIndex = 63
         Label32.Text = "Vehicle Cylinder No."
         ' 
         ' TextBox16
         ' 
-        TextBox16.Location = New Point(557, 320)
+        TextBox16.Location = New Point(487, 240)
+        TextBox16.Margin = New Padding(3, 2, 3, 2)
         TextBox16.Name = "TextBox16"
-        TextBox16.Size = New Size(125, 27)
+        TextBox16.Size = New Size(110, 23)
         TextBox16.TabIndex = 62
         ' 
         ' Label33
         ' 
         Label33.AutoSize = True
-        Label33.Location = New Point(669, 323)
+        Label33.Location = New Point(585, 242)
         Label33.Name = "Label33"
-        Label33.Size = New Size(0, 20)
+        Label33.Size = New Size(0, 15)
         Label33.TabIndex = 61
         ' 
         ' Label34
         ' 
         Label34.AutoSize = True
-        Label34.Location = New Point(407, 353)
+        Label34.Location = New Point(356, 265)
         Label34.Name = "Label34"
-        Label34.Size = New Size(144, 20)
+        Label34.Size = New Size(116, 15)
         Label34.TabIndex = 66
         Label34.Text = "Vehicle Transmission"
         ' 
         ' TextBox17
         ' 
-        TextBox17.Location = New Point(557, 353)
+        TextBox17.Location = New Point(487, 265)
+        TextBox17.Margin = New Padding(3, 2, 3, 2)
         TextBox17.Name = "TextBox17"
-        TextBox17.Size = New Size(125, 27)
+        TextBox17.Size = New Size(110, 23)
         TextBox17.TabIndex = 65
         ' 
         ' Label35
         ' 
         Label35.AutoSize = True
-        Label35.Location = New Point(669, 356)
+        Label35.Location = New Point(585, 267)
         Label35.Name = "Label35"
-        Label35.Size = New Size(0, 20)
+        Label35.Size = New Size(0, 15)
         Label35.TabIndex = 64
         ' 
         ' Label36
         ' 
         Label36.AutoSize = True
-        Label36.Location = New Point(468, 389)
+        Label36.Location = New Point(410, 292)
         Label36.Name = "Label36"
-        Label36.Size = New Size(86, 20)
+        Label36.Size = New Size(68, 15)
         Label36.TabIndex = 69
         Label36.Text = "Vehicle AC?"
         ' 
         ' Label37
         ' 
         Label37.AutoSize = True
-        Label37.Location = New Point(669, 389)
+        Label37.Location = New Point(585, 292)
         Label37.Name = "Label37"
-        Label37.Size = New Size(0, 20)
+        Label37.Size = New Size(0, 15)
         Label37.TabIndex = 67
         ' 
         ' Label38
         ' 
         Label38.AutoSize = True
-        Label38.Location = New Point(402, 422)
+        Label38.Location = New Point(352, 316)
         Label38.Name = "Label38"
-        Label38.Size = New Size(149, 20)
+        Label38.Size = New Size(118, 15)
         Label38.TabIndex = 72
         Label38.Text = "Vehicle Engine Name"
         ' 
         ' TextBox19
         ' 
-        TextBox19.Location = New Point(557, 419)
+        TextBox19.Location = New Point(487, 314)
+        TextBox19.Margin = New Padding(3, 2, 3, 2)
         TextBox19.Name = "TextBox19"
-        TextBox19.Size = New Size(125, 27)
+        TextBox19.Size = New Size(110, 23)
         TextBox19.TabIndex = 71
         ' 
         ' Label39
         ' 
         Label39.AutoSize = True
-        Label39.Location = New Point(669, 422)
+        Label39.Location = New Point(585, 316)
         Label39.Name = "Label39"
-        Label39.Size = New Size(0, 20)
+        Label39.Size = New Size(0, 15)
         Label39.TabIndex = 70
         ' 
         ' Label40
         ' 
         Label40.AutoSize = True
-        Label40.Location = New Point(369, 455)
+        Label40.Location = New Point(323, 341)
         Label40.Name = "Label40"
-        Label40.Size = New Size(182, 20)
+        Label40.Size = New Size(144, 15)
         Label40.TabIndex = 75
         Label40.Text = "Vehicle Model Type Name"
         ' 
         ' TextBox20
         ' 
-        TextBox20.Location = New Point(557, 452)
+        TextBox20.Location = New Point(487, 339)
+        TextBox20.Margin = New Padding(3, 2, 3, 2)
         TextBox20.Name = "TextBox20"
-        TextBox20.Size = New Size(125, 27)
+        TextBox20.Size = New Size(110, 23)
         TextBox20.TabIndex = 74
         ' 
         ' Label41
         ' 
         Label41.AutoSize = True
-        Label41.Location = New Point(669, 455)
+        Label41.Location = New Point(585, 341)
         Label41.Name = "Label41"
-        Label41.Size = New Size(0, 20)
+        Label41.Size = New Size(0, 15)
         Label41.TabIndex = 73
         ' 
         ' Label42
         ' 
         Label42.AutoSize = True
-        Label42.Location = New Point(707, 189)
+        Label42.Location = New Point(619, 142)
         Label42.Name = "Label42"
-        Label42.Size = New Size(145, 20)
+        Label42.Size = New Size(114, 15)
         Label42.TabIndex = 78
         Label42.Text = "Store Division Name"
         ' 
         ' TextBox21
         ' 
-        TextBox21.Location = New Point(858, 189)
+        TextBox21.Location = New Point(751, 142)
+        TextBox21.Margin = New Padding(3, 2, 3, 2)
         TextBox21.Name = "TextBox21"
-        TextBox21.Size = New Size(125, 27)
+        TextBox21.Size = New Size(110, 23)
         TextBox21.TabIndex = 77
         ' 
         ' Label43
         ' 
         Label43.AutoSize = True
-        Label43.Location = New Point(954, 189)
+        Label43.Location = New Point(835, 142)
         Label43.Name = "Label43"
-        Label43.Size = New Size(0, 20)
+        Label43.Size = New Size(0, 15)
         Label43.TabIndex = 76
         ' 
         ' Label44
         ' 
         Label44.AutoSize = True
-        Label44.Location = New Point(713, 225)
+        Label44.Location = New Point(624, 169)
         Label44.Name = "Label44"
-        Label44.Size = New Size(139, 20)
+        Label44.Size = New Size(109, 15)
         Label44.TabIndex = 81
         Label44.Text = "Store Region Name"
         ' 
         ' TextBox22
         ' 
-        TextBox22.Location = New Point(858, 222)
+        TextBox22.Location = New Point(751, 166)
+        TextBox22.Margin = New Padding(3, 2, 3, 2)
         TextBox22.Name = "TextBox22"
-        TextBox22.Size = New Size(125, 27)
+        TextBox22.Size = New Size(110, 23)
         TextBox22.TabIndex = 80
         ' 
         ' Label45
         ' 
         Label45.AutoSize = True
-        Label45.Location = New Point(954, 222)
+        Label45.Location = New Point(835, 166)
         Label45.Name = "Label45"
-        Label45.Size = New Size(0, 20)
+        Label45.Size = New Size(0, 15)
         Label45.TabIndex = 79
         ' 
         ' Label46
         ' 
         Label46.AutoSize = True
-        Label46.Location = New Point(713, 258)
+        Label46.Location = New Point(624, 194)
         Label46.Name = "Label46"
-        Label46.Size = New Size(143, 20)
+        Label46.Size = New Size(115, 15)
         Label46.TabIndex = 84
         Label46.Text = "Store Country Name"
         ' 
         ' TextBox23
         ' 
-        TextBox23.Location = New Point(858, 255)
+        TextBox23.Location = New Point(751, 191)
+        TextBox23.Margin = New Padding(3, 2, 3, 2)
         TextBox23.Name = "TextBox23"
-        TextBox23.Size = New Size(125, 27)
+        TextBox23.Size = New Size(110, 23)
         TextBox23.TabIndex = 83
         ' 
         ' Label47
         ' 
         Label47.AutoSize = True
-        Label47.Location = New Point(954, 255)
+        Label47.Location = New Point(835, 191)
         Label47.Name = "Label47"
-        Label47.Size = New Size(0, 20)
+        Label47.Size = New Size(0, 15)
         Label47.TabIndex = 82
         ' 
         ' Label48
         ' 
         Label48.AutoSize = True
-        Label48.Location = New Point(751, 291)
+        Label48.Location = New Point(657, 218)
         Label48.Name = "Label48"
-        Label48.Size = New Size(0, 20)
+        Label48.Size = New Size(0, 15)
         Label48.TabIndex = 87
         ' 
         ' Label49
         ' 
         Label49.AutoSize = True
-        Label49.Location = New Point(954, 288)
+        Label49.Location = New Point(835, 216)
         Label49.Name = "Label49"
-        Label49.Size = New Size(0, 20)
+        Label49.Size = New Size(0, 15)
         Label49.TabIndex = 85
         ' 
         ' Label50
         ' 
         Label50.AutoSize = True
-        Label50.Location = New Point(75, 423)
+        Label50.Location = New Point(66, 317)
         Label50.Name = "Label50"
-        Label50.Size = New Size(129, 20)
+        Label50.Size = New Size(104, 15)
         Label50.TabIndex = 90
         Label50.Text = "Customer Address"
         ' 
         ' TextBox24
         ' 
-        TextBox24.Location = New Point(210, 423)
+        TextBox24.Location = New Point(184, 317)
+        TextBox24.Margin = New Padding(3, 2, 3, 2)
         TextBox24.Name = "TextBox24"
-        TextBox24.Size = New Size(125, 27)
+        TextBox24.Size = New Size(110, 23)
         TextBox24.TabIndex = 89
         ' 
         ' Label51
         ' 
         Label51.AutoSize = True
-        Label51.Location = New Point(306, 420)
+        Label51.Location = New Point(268, 315)
         Label51.Name = "Label51"
-        Label51.Size = New Size(0, 20)
+        Label51.Size = New Size(0, 15)
         Label51.TabIndex = 88
         ' 
         ' Label52
         ' 
         Label52.AutoSize = True
-        Label52.Location = New Point(751, 288)
+        Label52.Location = New Point(657, 216)
         Label52.Name = "Label52"
-        Label52.Size = New Size(101, 20)
+        Label52.Size = New Size(79, 15)
         Label52.TabIndex = 93
         Label52.Text = "Store Address"
         ' 
         ' TextBox25
         ' 
-        TextBox25.Location = New Point(858, 288)
+        TextBox25.Location = New Point(751, 216)
+        TextBox25.Margin = New Padding(3, 2, 3, 2)
         TextBox25.Name = "TextBox25"
-        TextBox25.Size = New Size(125, 27)
+        TextBox25.Size = New Size(110, 23)
         TextBox25.TabIndex = 92
         ' 
         ' Label53
         ' 
         Label53.AutoSize = True
-        Label53.Location = New Point(954, 285)
+        Label53.Location = New Point(835, 214)
         Label53.Name = "Label53"
-        Label53.Size = New Size(0, 20)
+        Label53.Size = New Size(0, 15)
         Label53.TabIndex = 91
         ' 
         ' Label54
         ' 
         Label54.AutoSize = True
-        Label54.Location = New Point(22, 492)
+        Label54.Location = New Point(19, 369)
         Label54.Name = "Label54"
-        Label54.Size = New Size(182, 20)
+        Label54.Size = New Size(148, 15)
         Label54.TabIndex = 96
         Label54.Text = "Insurance Company Name"
         ' 
         ' TextBox26
         ' 
-        TextBox26.Location = New Point(210, 489)
+        TextBox26.Location = New Point(184, 367)
+        TextBox26.Margin = New Padding(3, 2, 3, 2)
         TextBox26.Name = "TextBox26"
-        TextBox26.Size = New Size(125, 27)
+        TextBox26.Size = New Size(110, 23)
         TextBox26.TabIndex = 95
         ' 
         ' Label55
         ' 
         Label55.AutoSize = True
-        Label55.Location = New Point(306, 486)
+        Label55.Location = New Point(268, 364)
         Label55.Name = "Label55"
-        Label55.Size = New Size(0, 20)
+        Label55.Size = New Size(0, 15)
         Label55.TabIndex = 94
         ' 
         ' Label56
         ' 
         Label56.AutoSize = True
-        Label56.Location = New Point(66, 525)
+        Label56.Location = New Point(58, 394)
         Label56.Name = "Label56"
-        Label56.Size = New Size(138, 20)
+        Label56.Size = New Size(109, 15)
         Label56.TabIndex = 99
         Label56.Text = "Insurance Exp. Date"
         ' 
         ' TextBox27
         ' 
-        TextBox27.Location = New Point(210, 522)
+        TextBox27.Location = New Point(184, 392)
+        TextBox27.Margin = New Padding(3, 2, 3, 2)
         TextBox27.Name = "TextBox27"
-        TextBox27.Size = New Size(125, 27)
+        TextBox27.Size = New Size(110, 23)
         TextBox27.TabIndex = 98
         ' 
         ' Label57
         ' 
         Label57.AutoSize = True
-        Label57.Location = New Point(306, 519)
+        Label57.Location = New Point(268, 389)
         Label57.Name = "Label57"
-        Label57.Size = New Size(0, 20)
+        Label57.Size = New Size(0, 15)
         Label57.TabIndex = 97
         ' 
         ' Label59
         ' 
         Label59.AutoSize = True
-        Label59.Location = New Point(306, 552)
+        Label59.Location = New Point(268, 414)
         Label59.Name = "Label59"
-        Label59.Size = New Size(0, 20)
+        Label59.Size = New Size(0, 15)
         Label59.TabIndex = 100
         ' 
         ' CheckBox1
         ' 
         CheckBox1.AutoSize = True
-        CheckBox1.Location = New Point(560, 390)
+        CheckBox1.Location = New Point(490, 292)
+        CheckBox1.Margin = New Padding(3, 2, 3, 2)
         CheckBox1.Name = "CheckBox1"
-        CheckBox1.Size = New Size(18, 17)
+        CheckBox1.Size = New Size(15, 14)
         CheckBox1.TabIndex = 103
         CheckBox1.UseVisualStyleBackColor = True
         ' 
         ' CheckBox2
         ' 
         CheckBox2.AutoSize = True
-        CheckBox2.Location = New Point(210, 555)
+        CheckBox2.Location = New Point(184, 416)
+        CheckBox2.Margin = New Padding(3, 2, 3, 2)
         CheckBox2.Name = "CheckBox2"
-        CheckBox2.Size = New Size(18, 17)
+        CheckBox2.Size = New Size(15, 14)
         CheckBox2.TabIndex = 105
         CheckBox2.UseVisualStyleBackColor = True
         ' 
         ' Label60
         ' 
         Label60.AutoSize = True
-        Label60.Location = New Point(71, 552)
+        Label60.Location = New Point(62, 414)
         Label60.Name = "Label60"
-        Label60.Size = New Size(133, 20)
+        Label60.Size = New Size(104, 15)
         Label60.TabIndex = 104
         Label60.Text = "Over 25 Years Old?"
         ' 
+        ' Button2
+        ' 
+        Button2.BackColor = SystemColors.ActiveCaption
+        Button2.Font = New Font("Segoe UI Historic", 9F, FontStyle.Bold)
+        Button2.Location = New Point(713, 456)
+        Button2.Margin = New Padding(3, 2, 3, 2)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(111, 22)
+        Button2.TabIndex = 106
+        Button2.Text = "Submit"
+        Button2.UseVisualStyleBackColor = False
+        ' 
         ' RentalAgreeAutoPop
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1062, 753)
+        ClientSize = New Size(929, 565)
+        Controls.Add(Button2)
         Controls.Add(CheckBox2)
         Controls.Add(Label60)
         Controls.Add(CheckBox1)
@@ -917,6 +960,7 @@ Partial Class RentalAgreeAutoPop
         Controls.Add(Button1)
         Controls.Add(TextBox1)
         Controls.Add(Label1)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "RentalAgreeAutoPop"
         Text = "RentalAgreeAutoPop"
         ResumeLayout(False)
@@ -1011,4 +1055,5 @@ Partial Class RentalAgreeAutoPop
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents Label60 As Label
+    Friend WithEvents Button2 As Button
 End Class
